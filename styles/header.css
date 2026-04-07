@@ -1,0 +1,51 @@
+header#general {
+    height: 750px;
+    background-image: url(../assets/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: block;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+#avatar {
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-inline: 180px;
+}
+
+#intro {
+    margin-bottom: 80px;
+}
+
+#tags {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-inline: 143px;
+    flex-wrap: wrap;
+}
+
+.tags {
+    p {
+    display: inline;
+    }
+}
+
+#roll {
+    display: flex;
+    justify-content: center;
+}
