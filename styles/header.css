@@ -4,18 +4,20 @@ header#general {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .container {
     display: block;
     width: 1040px;
-    margin: 0 auto;
+    margin: 0 auto 94px;
+    padding-top: 120px;
 }
 
 #avatar {
     display: flex;
     justify-content: center;
+    margin-bottom: 56px;
 }
 
 #text {
@@ -40,12 +42,57 @@ header#general {
 }
 
 .tags {
+
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: var(--gray-400);
+    border-radius: 24px;
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
     p {
     display: inline;
+    font: var(--text-md);
+    color: var(--gray-200);
+    margin: 0;
     }
 }
 
 #roll {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    margin: 0 auto 57px;
+}
+
+#Hello-world {
+    font: var(--subtitle);
+    color: var(--gray-200);
+}
+
+
+
+div#text {
+
+    h1 {
+        font: var(--title-lg);
+        color: var(--gray-100);
+        margin-bottom: 20px;
+    }
+
+    p span {
+        color: var(--red);
+    }
+
+    p:nth-child(3) {
+        font: var(--text-sm);
+        color: var(--gray-300);
+    }
 }
