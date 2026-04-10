@@ -3,7 +3,7 @@ main {
     background-color: var(--gray-500);
 }
 
-#header {
+.header {
 
     display: flex;
     flex-direction: column;
