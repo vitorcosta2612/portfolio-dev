@@ -7,7 +7,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
     justify-content: center;
-    margin: 56px auto;
+    margin: 56px auto 0;
     padding-bottom: 120px;
     max-width: 1040px;
 }
