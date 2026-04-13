@@ -82,7 +82,7 @@ footer {
     border: 1.5px solid var(--blue);
     
     img:nth-child(1) {
-        filter: hue-rotate(180deg) saturate(2)
+        filter: hue-rotate(340deg) saturate(6)
     }
 
 
